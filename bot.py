@@ -4,7 +4,7 @@ import os
 from src import YouTube, Video
 
 
-API_TOKEN = '7457112221:AAFF_tTrlpRE-XzKOr6FYW_00DCt8GKctsY'
+API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
 
 bot = telebot.TeleBot(API_TOKEN)
 
