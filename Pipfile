@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pytelegrambotapi = "*"
 langchain = "*"
+langchain-community = "*"
 langchain-openai = "*"
 openai = "*"
 openai-whisper = "*"
