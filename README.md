@@ -1,4 +1,4 @@
-# llm_agents
+# LLM-based agents
 
 For run the code, you need to run the following commands:
 
@@ -44,3 +44,14 @@ Finally, you can run the following command to start the server:
 ```bash
 python bot.py
 ```
+
+---
+## Architecture
+
+This is the flow of the project:
+
+![architecture](./imgs/architecture.png)
+
+## Demo
+
+![demo](https://drive.google.com/file/d/1ymNqYnv2eTJzE7fhR63meOPtVP42IJ1G/view?usp=drive_link)
