@@ -23,7 +23,7 @@ def download_video(message: telebot.types.Message, dst_path: str) -> None:
 # Handle '/start' and '/help'
 @bot.message_handler(commands=['help', 'start'])
 def send_welcome(message):
-    bot.reply_to(message, "Hola, soy un bot para probrar los desarrollos de ajgentes de IA. 🫦")
+    bot.reply_to(message, "Hola, soy un bot para probrar los desarrollos de agentes de IA. 🫦")
 
 @bot.message_handler(commands=['youtube'])
 def command_youtube_video(message):
@@ -53,6 +53,9 @@ def echo_message(message):
         else:
             bot.reply_to(message, "No es un link de YouTube.")
         summarize_yt_video = False
+    if summarize_video:
+        bot.reply_to(message, "No esperaba un texto.")
+        summarize_video = False
     else:
         bot.reply_to(message, message.text)
 
