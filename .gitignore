@@ -166,3 +166,5 @@ cython_debug/
 
 # development
 dev/
+audios/
+videos/
