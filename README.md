@@ -54,4 +54,4 @@ This is the flow of the project:
 
 ## Demo
 
-![demo](https://drive.google.com/file/d/1ymNqYnv2eTJzE7fhR63meOPtVP42IJ1G/view?usp=drive_link)
+[Video demo](https://drive.google.com/file/d/1ymNqYnv2eTJzE7fhR63meOPtVP42IJ1G/view?usp=drive_link)
